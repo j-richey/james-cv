@@ -15,7 +15,7 @@ for your needs.
 [Download PDF](https://raw.githubusercontent.com/j-richey/james-cv/master/examples/output/resume.pdf)
 
 ### Cover Letter
-![cover letter](https://raw.githubusercontent.com/j-richey/james-cv/master/examples/output/cover-letter.png) 
+<img src="https://raw.githubusercontent.com/j-richey/james-cv/master/examples/output/cover-letter.png" alt="cover letter" width="50%"/>
 
 [Download PDF](https://raw.githubusercontent.com/j-richey/james-cv/master/examples/output/cover-letter.pdf)
 
