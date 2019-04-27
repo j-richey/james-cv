@@ -1,0 +1,5 @@
+# Ignore intermediate files created by LuaTeX 
+examples/output/*.out
+examples/output/*.aux
+examples/output/*.log
+

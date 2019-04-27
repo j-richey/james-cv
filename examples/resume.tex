@@ -1,0 +1,190 @@
+\documentclass{james-cv}
+
+\usepackage{lipsum}
+
+% Include the information about myself and the job I am applying to.
+\input{examples/contact-info}
+\input{examples/job-info}
+
+
+\begin{document}
+
+\maketitle{}
+
+\keyskills{
+  Key Skill One | Key Skill Two | Key Skill Three | Key Skill Four | Key Skill 
+  Five | Key Skill Six
+}
+
+
+\begin{summary}
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque varius sem
+a egestas tempus.
+
+\sep{}
+
+Aenean facilisis ut mauris sit amet rutrum. Class aptent taciti sociosqu ad
+litora torquent per conubia nostra, per inceptos himenaeos. Nam feugiat lacus
+vel est. Curabitur consectetuer.
+
+\sep{}
+
+Vivamus urna urna, commodo ut aliquet ac, rutrum et dolor. Curabitur semper sit
+amet ipsum ac aliquet. Aliquam tincidunt urna. Nulla ullamcorper vestibulum
+turpis.
+
+\sep{}
+
+Curabitur volutpat id massa nec sodales. Suspendisse dignissim nulla at justo
+fringilla, at tincidunt dolor venenatis. Nunc vitae tortor. Aliquam dolor odio,
+commodo pretium, ultricies non, pharetra in, velit.
+
+\end{summary}
+
+
+\section{Technical Expertise}
+\begin{allskills}
+  \category{Languages}{
+    language | language | language | language | language | language | language |
+    language | language
+  }
+  \category{Platforms}{
+    platform | platform | platform | platform | platform | platform | platform |
+    platform | platform
+  }
+  \category{Design}{
+    design technique | design technique | design technique | design technique |
+    design technique
+  }
+  \category{Tools}{
+    tool | tool | tool | tool | tool | tool | tool | tool | tool | tool | tool
+    tool | tool | tool
+  }
+\end{allskills}
+
+
+\section{Professional Experience}
+\employment
+  {Job Title 1}
+  {Month YYY---Present}
+  {Company}
+  {City, ST}
+
+\lipsum[1]
+
+\begin{itemize}
+\item{
+  \emph{Maecenas tempor justo semper, placerat tellus vel,} accumsan quam. Morbi
+  rhoncus sapien sit amet metus ornare, non commodo libero convallis. Aliquam
+  erat volutpat. Praesent facilisis viverra lorem, id egestas nunc sollicitudin
+  lobortis. 
+}
+\item{
+  \emph{Nulla at luctus mi, eget malesuada urna} ed dapibus enim augue, sed 
+  pulvinar turpis blandit id. Nam vitae interdum felis. Aenean euismod dui et 
+  lorem gravida semper. Duis sit amet facilisis augue, sit amet blandit purus. 
+  \emph{Cras a sodales leo.}
+}
+\item{
+  \emph{Nam in cursus magna, eget sagittis elit.} In eget viverra eros. Proin 
+  ligula eros, ultrices quis pulvinar a, tristique egestas est. Maecenas et elit
+  sed \emph{mi pharetra maximus ac vehicula magna.}
+}
+\item{
+  Nullam auctor condimentum eros, at blandit ligula rutrum non. Duis dapibus, 
+  tellus sit amet pellentesque porta, ligula odio interdum lacus, ut mattis
+  \emph{dolor mi a sem}
+}
+\item{
+  Sed ultricies quis metus id convallis. Donec ac massa quis nisl varius accumsan
+  nec nec sem. \emph{Nunc tristique dapibus mauris, in porttitor est varius sit
+  amet.}
+}
+\end{itemize}
+
+% We must explicitly break the page
+\makesecondpage{}
+
+\employment
+  {Job Title 2}
+  {Month YYYY---Month YYYY}
+  {Company}
+  {City, ST}
+
+\lipsum[2]
+
+\begin{itemize}
+\item{
+  Sed ultricies quis metus id convallis. Donec ac massa quis nisl varius accumsan
+  nec nec sem. \emph{Nunc tristique dapibus mauris, in porttitor est varius sit
+  amet.}
+}
+\item{
+  \emph{Fusce mauris. Vestibulum luctus nibh at lectus.} Sed bibendum, nulla a
+  faucibus semper, leo velit ultricies tellus, ac venenatis
+  arcu wisi vel nisl. Vestibulum diam. Aliquam pellentesque, augue quis sagittis
+  posuere, turpis lacus congue quam, \emph{in hendrerit risus eros eget felis.}
+}
+\item{
+  \emph{Maecenas tempor justo semper, placerat tellus vel,} accumsan quam. Morbi
+  rhoncus sapien sit amet metus ornare, non commodo libero convallis. Aliquam
+  erat volutpat. Praesent facilisis viverra lorem, id egestas nunc sollicitudin
+  lobortis. 
+}
+\end{itemize}
+
+\employment
+  {Job Title 3}
+  {Month YYYY---Month YYYY}
+  {Company}
+  {City, ST}
+
+\lipsum[3]
+
+\begin{itemize}
+\item{
+  Sed ultricies quis metus id convallis. Donec ac massa quis nisl varius accumsan
+  nec nec sem. \emph{Nunc tristique dapibus mauris, in porttitor est varius sit
+  amet.}
+}
+\item{
+  \emph{Maecenas tempor justo semper, placerat tellus vel,} accumsan quam. Morbi
+  rhoncus sapien sit amet metus ornare, non commodo libero convallis. Aliquam
+  erat volutpat. Praesent facilisis viverra lorem, id egestas nunc sollicitudin
+  lobortis. 
+}
+\end{itemize}
+
+
+\employment
+  {Job Title 4}
+  {Month YYYY---Month YYYY}
+  {Company}
+  {City, ST}
+
+\lipsum[4]
+
+\begin{itemize}
+\item{
+  \emph{Sed ultricies quis metus id convallis.} Donec ac massa quis nisl varius
+  accumsan nec nec sem. Nunc tristique dapibus mauris, \emph{in porttitor est 
+  varius sit amet.}
+}
+\end{itemize}
+
+
+% HACKS: the forced negative space here moves the section header closer to where
+% it should be.
+\vspace{-1em}
+\section{Education}
+
+\textbf{Some Degree} | 
+University, ST | YYYY
+\begin{itemize}[noitemsep,topsep=0em]
+\item{Etiam ut nulla commodo}
+\end{itemize}
+
+
+\end{document}
+
