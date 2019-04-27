@@ -6,18 +6,12 @@ for your needs.
 
 ## Example
 
-### Resume 
-
-| Page 1 | Page 2 |
+| Resume | Cover Letter |
 |:---:|:---:|
-|![resume page 1](https://raw.githubusercontent.com/j-richey/james-cv/master/examples/output/resume-page-1.png) | ![resume page 2](https://raw.githubusercontent.com/j-richey/james-cv/master/examples/output/resume-page-2.png) |
-
-[Download PDF](https://raw.githubusercontent.com/j-richey/james-cv/master/examples/output/resume.pdf)
-
-### Cover Letter
-<img src="https://raw.githubusercontent.com/j-richey/james-cv/master/examples/output/cover-letter.png" alt="cover letter" width="50%"/>
-
-[Download PDF](https://raw.githubusercontent.com/j-richey/james-cv/master/examples/output/cover-letter.pdf)
+|[Download PDF](https://raw.githubusercontent.com/j-richey/james-cv/master/examples/output/resume.pdf) |[Download PDF](https://raw.githubusercontent.com/j-richey/james-cv/master/examples/output/cover-letter.pdf) |
+|![resume page 1](https://raw.githubusercontent.com/j-richey/james-cv/master/examples/output/resume-page-1.png) | ![cover letter](https://raw.githubusercontent.com/j-richey/james-cv/master/examples/output/cover-letter.png)  |
+| Page 2 |        |
+|![resume page 2](https://raw.githubusercontent.com/j-richey/james-cv/master/examples/output/resume-page-2.png) |
 
 
 ## Using
